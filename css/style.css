@@ -516,3 +516,19 @@ figure.snip1113 h4 {
 .image-design {
   border-radius: 50px 0;
 }
+
+/* Highlights */
+.highlights li {
+  font-size: 1.1em;
+  text-decoration: none;
+  list-style: none;
+  line-height: 2em;
+  padding: 10px 0;
+  text-align: left;
+}
+
+.fa-square-check {
+  font-size: 2em;
+  vertical-align: middle;
+  margin-right: 30px;
+}
