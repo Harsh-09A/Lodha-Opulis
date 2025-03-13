@@ -532,3 +532,17 @@ figure.snip1113 h4 {
   vertical-align: middle;
   margin-right: 30px;
 }
+@media screen and (max-width: 600px) {
+  .overview_video .video-js {
+    width: 100%;
+    height: 400px;
+  }
+  .video-js::poster {
+    src: url("../img/gallery/gallery05.jpg");
+  }
+  .vjs-poster img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover !important;
+  }
+}
